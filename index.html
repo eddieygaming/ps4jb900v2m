@@ -21,10 +21,10 @@ function pldone() {
   msgs.innerHTML= LoadedMSG;
 }
 function jbdone() {
-  msgs.innerHTML= "PS4 9.00 Jailbreak Done!!!.";
+  msgs.innerHTML= "PS4 9.00 Jailbreak Selesai!!!.";
 }
 function goldhendone() {
-  msgs.innerHTML= "GoldHEN is already loaded!!!.";
+  msgs.innerHTML= "GoldHEN sudah diaktifkan!!!.";
 }
 
 //Stooged Method
@@ -100,7 +100,7 @@ var exec_type = "";
 sessionStorage.setItem("goldhen","");
 
 function load_mainmenu(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Going to Main Menu!!!</h1>";
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Pergi ke Halaman Utama!!!</h1>";
 var link = document.createElement('a');
 document.body.appendChild(link);
 link.href = '../index.html';
@@ -108,7 +108,7 @@ link.click();
 }
 
 function load_plmenu(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading 900FW Payload Menu (Offline)!!!</h1>";
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Memuatkan 900FW Payload Menu (Offline)!!!</h1>";
 var link = document.createElement('a');
 document.body.appendChild(link);
 link.href = './payloads/index.html';
@@ -116,7 +116,7 @@ link.click();
 }
 
 function load_plmenu_online(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading 900FW Payload Menu (Online)!!!</h1>";
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Memuatkan 900FW Payload Menu (Online)!!!</h1>";
 var link = document.createElement('a');
 document.body.appendChild(link);
 link.href = '../payloads/index-online.html';
@@ -124,8 +124,8 @@ link.click();
 }
 
 function load_goldhenb(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHen V2.0B. Please wait!!!</h1>";
-LoadedMSG="GoldHen V2.0B Loaded. Please Close The Browser!!! Re-Open it if you wanna lauch any other payload";
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Memuatkan GoldHen V2.0B. Sila tunggu!!!</h1>";
+LoadedMSG="GoldHen V2.0B telah diaktifksn. Sila tutop browwser!!! Buka semula internet browser jika ingin megaktifkan payload yang lain";
 PLfile = "pl_goldhen20b.bin";
 if (sessionStorage.goldhen != "loaded")
 {
@@ -138,8 +138,8 @@ if (sessionStorage.goldhen != "loaded")
 }
 
 function load_goldhenb2(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHen V2.0B2. Please wait!!!</h1>";
-LoadedMSG="GoldHen V2.0B2 Loaded. Please Close The Browser!!! Re-Open it if you wanna lauch any other payload";
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Memuatkan GoldHen V2.0B2. Sila tunggu!!!</h1>";
+LoadedMSG="GoldHen V2.0B2 telah diaktifksn. Sila tutop browwser!!! Buka semula internet browser jika ingin megaktifkan payload yang lain";
 PLfile = "pl_goldhen20b2.bin";
 if (sessionStorage.goldhen != "loaded")
 {
@@ -152,8 +152,8 @@ if (sessionStorage.goldhen != "loaded")
 }
 
 function load_goldhen21(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHen V2.1. Please wait!!!</h1>";
-LoadedMSG="GoldHen V2.1 Loaded. Please Close The Browser!!! Re-Open it if you wanna lauch any other payload";
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Memuatkan GoldHen V2.1. Sila tunggu!!!</h1>";
+LoadedMSG="GoldHen V2.1 telah diaktifksn. Sila tutop browwser!!! Buka semula internet browser jika ingin megaktifkan payload yang lain";
 PLfile = "pl_goldhen21.bin";
 if (sessionStorage.goldhen != "loaded")
 {
